@@ -5,17 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Day 2 HTML with CSS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>Student Bio</h1>
-    <h2>Alex Ichikawa</h2>
-    <img src="https://placehold.it/200x200" alt="Alex Ichikawa">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacus bibendum, congue enim non, rutrum eros. Curabitur nibh ipsum, accumsan ac dolor id.</p>
-    <h2>Contact Info</h2>
-      <ul>
-          <li>Email: <a href="#"></a>someplace@gmail.com</li>
-          <li>Github: <a href="#">Sample Name</a></li>
-          <li>Portfolio: <a href="#"></a>Coming soon</li>
-      </ul>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+
+    <div class="container">
+        <section id="main-bio">
+          <h2>Alex Ichikawa</h2>
+          <img id="bio-image" src="https://placehold.it/200x200" alt="Alex Ichikawa">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet lacus bibendum, congue enim non, rutrum eros. Curabitur nibh ipsum, accumsan ac dolor id.</p>
+        </section>
+
+        <section id="contact-info">
+            <h2>Contact Info</h2>
+            <ul>
+                <li>Email: <a href="#">someplace@gmail.com</a></li>
+                <li>Github: <a href="#">Sample Name</a></li>
+                <li>Portfolio: <a href="#">Coming soon</a></li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
